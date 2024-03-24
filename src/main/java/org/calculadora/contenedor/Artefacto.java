@@ -189,7 +189,6 @@ class PanelNumeros extends JPanel {
         JButton[] botonesAcciones = new JButton[acciones.length];
         for (int i = 0; i < acciones.length; i++) {
             botonesAcciones[i] = new JButton(acciones[i]);
-            // Configura el estilo de los botones como lo desees
             botonesAcciones[i].setFont(new Font("Arial", Font.BOLD, 20));
             botonesAcciones[i].setBackground(Color.WHITE);
             botonesAcciones[i].setForeground(Color.BLACK);
