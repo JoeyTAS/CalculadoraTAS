@@ -1,0 +1,19 @@
+@startuml
+package org-calculadora-principal{
+        class CalculadoraTAS{
+            --Metodos--
+            + main(String[] arg)
+        }
+}
+package org-calculadora-contenedor{
+        class Artefacto{
+            --Metodos--
+            + super()
+         }
+        class JFrame{
+            --Metodos--
+        }
+        Artefacto --|> JFrame : Hereda
+        Artefacto .. CalculadoraTAS : new Marco()
+} 
+@enduml
