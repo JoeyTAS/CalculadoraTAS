@@ -127,14 +127,14 @@ class PanelPantalla extends JPanel {
         }
 
         // Imprimir el resultado de la operación
-        System.out.println("El resultado de la operación es: " + resultado);
+        //verdificar su esta realizando la operacion System.out.println("El resultado de la operación es: " + resultado);
         // Establecer el resultado de la operación en el JLabel
         jlabel.setText(String.valueOf(resultado));
 
     }
 
     public void limpiarPantalla() {
-        jlabel.setText(""); // Limpiar el texto del JLabel
+        jlabel.setText(""); 
     }
 }
 
@@ -195,7 +195,6 @@ class PanelNumeros extends JPanel {
             botonesAcciones[i].setForeground(Color.BLACK);
             add(botonesAcciones[i]);
 
-            // ActionListener para manejar los clics en los botones de acciones
             final int index = i;
             botonesAcciones[i].addActionListener(new ActionListener() {
                 @Override
