@@ -184,7 +184,6 @@ class PanelNumeros extends JPanel {
                 }
             });
         }
-
         String[] acciones = {"=", "C", "<x", "."};
         JButton[] botonesAcciones = new JButton[acciones.length];
         for (int i = 0; i < acciones.length; i++) {
