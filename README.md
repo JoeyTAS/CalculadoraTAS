@@ -1,4 +1,4 @@
-Se estara actualizando diario
-version 0.1
+Es proceso.
+version 0.3
 Proyecto: Calculadora Java
 
